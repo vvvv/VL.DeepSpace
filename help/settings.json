@@ -1,6 +1,6 @@
 {
 	"WallDimensions": "16.0, 9.0",
-  "FloorDimensions": "16.0, 9.0",
+	"FloorDimensions": "16.0, 9.0",
 	"TuioIP": "0.0.0.0",
 	"TuioPort": "3333",
 	"FloorIP": "192.168.19.115",

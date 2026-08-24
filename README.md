@@ -1,7 +1,6 @@
 # VL.DeepSpace
 
-A starter kit for developing applications for the Ars Electronica Deep Space
-[Ars Electronica Deep Space](https://ars.electronica.art/solutions/de/deepspace/) with vvvv.
+A starter kit for developing applications for the [Ars Electronica Deep Space](https://ars.electronica.art/solutions/de/deepspace/).
 
 ## Features
 - Wall/Floor stereoscopic camera rig
@@ -16,7 +15,7 @@ For use with vvvv, the visual live-programming environment for .NET: http://vvvv
 ## Getting started
 - In the [Help Browser](https://thegraybook.vvvv.org/reference/hde/findinghelp.html) search for "VL.DeepSpace" and click the download icon
 - When downloaded, check out the examples coming with the pack
-- Save the examples in your local work folder to modify them
+- Save an example in a local work folder to modify it
 
 ## Contributing
 - Report issues on [the vvvv forum](https://forum.vvvv.org/c/vvvv-gamma/28)
