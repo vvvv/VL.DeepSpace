@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PublicChannels>
+  <Channel Name="PreviewFloor" Type="Boolean [Primitive]" />
+  <Channel Name="Random" Type="Boolean [Primitive]" />
+  <Channel Name="Rotation" Type="Float32 [Primitive]" />
+</PublicChannels>
