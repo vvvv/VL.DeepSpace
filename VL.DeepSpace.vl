@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="EWHWcwf3oBvPnhn254YyBa" LanguageVersion="2026.8.0-0116-g7d7411c8e4" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="EWHWcwf3oBvPnhn254YyBa" LanguageVersion="2026.8.0-0122-g54b562b797" Version="0.128">
   <Patch Id="Rgz0iK0cdl5O6XLZAnSI2k">
     <Canvas Id="EtMz6eWyJpjMOVOROl6714" DefaultCategory="DeepSpace" CanvasType="FullCategory">
       <!--
@@ -977,7 +977,7 @@
               <Pin Id="CgLZbGGvk3FOpDrV0iYKl8" Name="Default" Kind="InputPin" />
               <Pin Id="Sz9txUrLbylOHiaF97QexO" Name="Value" Kind="OutputPin" />
             </Node>
-            <Pad Id="OMdSVSKI7czLfoAsNM3vo0" Comment="Key" Bounds="542,372,91,15" ShowValueBox="true" isIOBox="true" Value="FloorIP">
+            <Pad Id="OMdSVSKI7czLfoAsNM3vo0" Comment="Key" Bounds="573,370,65,15" ShowValueBox="true" isIOBox="true" Value="FloorIP">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -1096,7 +1096,7 @@
         </p:NodeReference>
         <Patch Id="JechorUwGNvLvijILzKFvE">
           <Canvas Id="MEC6aVVT2LwPZeLyvI5fu4" CanvasType="Group">
-            <Node Bounds="202,136,67,19" Id="Bn2Ro4uwb97LcWZnYx5Wsn">
+            <Node Bounds="202,160,67,19" Id="Bn2Ro4uwb97LcWZnYx5Wsn">
               <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ConfigItem" />
@@ -1114,6 +1114,11 @@
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="L6WolIytENVL2IVsQHJCYG" Bounds="204,202" />
+            <Pad Id="NCqyphHKlB8MnTxbbbignG" Comment="Default" Bounds="296,140,35,28" ShowValueBox="true" isIOBox="true" Value="16, 9">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pad>
           </Canvas>
           <Link Id="E33C7d1gNbSP34z8YKTcRR" Ids="QKaHhV7I706QdivYhCAvSf,RfbEbfk2dJzMckwrjLGLSN" />
           <Link Id="AVStGfIG0IZM6Ned2xGIyQ" Ids="L6WolIytENVL2IVsQHJCYG,L3KtHNAjXivMQoIrSFzl0B" IsHidden="true" />
@@ -1130,6 +1135,7 @@
             <Fragment Id="NmWtKjSjHKeN211WUuz6VI" Patch="PG5zp95v6hwMJQvAHIQiQE" Enabled="true" />
             <Fragment Id="QozYMIFsowXL0fBdvgCyDX" Patch="V0TtmcEMxM5L4G2YVkM5CW" Enabled="true" />
           </ProcessDefinition>
+          <Link Id="NMpFvxmt4uwNPslHcQ8u7t" Ids="NCqyphHKlB8MnTxbbbignG,IFLJJnMEXODQIrE1t1RjH2" />
         </Patch>
       </Node>
       <!--
@@ -1144,7 +1150,7 @@
         </p:NodeReference>
         <Patch Id="Pfi6EsRs4ZxMC9I8D2cnJN">
           <Canvas Id="AEGtDVzgHJzN30cGagQLSV" CanvasType="Group">
-            <Node Bounds="202,136,67,19" Id="Nux83ciCUXcPt6CrVP8lqS">
+            <Node Bounds="202,160,67,19" Id="Nux83ciCUXcPt6CrVP8lqS">
               <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ConfigItem" />
@@ -1161,7 +1167,12 @@
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <ControlPoint Id="SySPKgtHaeJP7uoCgjQyOq" Bounds="204,181" />
+            <ControlPoint Id="SySPKgtHaeJP7uoCgjQyOq" Bounds="204,205" />
+            <Pad Id="RRnVZ1OfxCCO75vEJvL8IA" Comment="Default" Bounds="279,140,35,28" ShowValueBox="true" isIOBox="true" Value="16, 9">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pad>
           </Canvas>
           <Link Id="VyMjGq9MTkUQT8SuW147Ss" Ids="ISnEt6nfryNNqWXlh5GOII,HUSKOhHJMSzOuul4lifNUf" />
           <Link Id="EJ60zorhfvAMMjzqVWKL9X" Ids="SySPKgtHaeJP7uoCgjQyOq,NcyKjeBYODHNYJJCRfyvxQ" IsHidden="true" />
@@ -1178,6 +1189,7 @@
             <Fragment Id="FTfUyu0q7HAPakDtcJeUXR" Patch="HMxOXH6qOQBO7aVWVPPjjz" Enabled="true" />
             <Fragment Id="E39p3jVfDISPYLKd4cVHv9" Patch="OO8c1riv6kgOktI7cAEaRO" Enabled="true" />
           </ProcessDefinition>
+          <Link Id="TKmEaiS76YOQIpKdiDW7jz" Ids="RRnVZ1OfxCCO75vEJvL8IA,OMhFPx1PDunPyDzkoSqJYf" />
         </Patch>
       </Node>
       <!--
@@ -1192,7 +1204,7 @@
         </p:NodeReference>
         <Patch Id="JJ2GvuuaAqFMn0NT49K5Jx">
           <Canvas Id="Q2BKikc6pDAQWFCbWo249s" CanvasType="Group">
-            <Node Bounds="202,136,67,19" Id="P08tKrsq4WBMNAOxRo2Qyu">
+            <Node Bounds="202,170,67,19" Id="P08tKrsq4WBMNAOxRo2Qyu">
               <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ConfigItem" />
@@ -1209,7 +1221,12 @@
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <ControlPoint Id="UJ4ZKPwy8DHNMLy93rPpTn" Bounds="204,202" />
+            <ControlPoint Id="UJ4ZKPwy8DHNMLy93rPpTn" Bounds="204,236" />
+            <Pad Id="BnBv1WRd121OHbfUZMbT0a" Comment="Default" Bounds="266,140,49,15" ShowValueBox="true" isIOBox="true" Value="0.0.0.0">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pad>
           </Canvas>
           <Link Id="Qf7gZ43KUbIOeKF997PgzY" Ids="O4oOhfAYu5bM52QCAO9AQf,VAJjRX0fVwrPuek6DjFJbi" />
           <Link Id="AFw9EeTGT2pOLLMFZu92xm" Ids="UJ4ZKPwy8DHNMLy93rPpTn,SFXe4EnDwPTMIrmkNlSJKH" IsHidden="true" />
@@ -1226,6 +1243,7 @@
             <Fragment Id="GJHgp2t7KPIM1qWzTUTnxQ" Patch="UTLn2gjT8DFPPv3JS3RCuy" Enabled="true" />
             <Fragment Id="I4Nyjz55GMnP8jSRXu9N2h" Patch="MzrVpAoqtnxLsrvm4odZ3R" Enabled="true" />
           </ProcessDefinition>
+          <Link Id="AOJE51i0GpbPWLwCIHPCMM" Ids="BnBv1WRd121OHbfUZMbT0a,Jv2DhNOipfqQZC6eC9r78K" />
         </Patch>
       </Node>
       <!--
@@ -1240,7 +1258,7 @@
         </p:NodeReference>
         <Patch Id="B09FJArCBMCMXoCulorkYk">
           <Canvas Id="SDkOwHvK7z7PIMhCZfprP9" CanvasType="Group">
-            <Node Bounds="202,136,67,19" Id="RAGiG3mohIbPMInshFnHb4">
+            <Node Bounds="202,160,67,19" Id="RAGiG3mohIbPMInshFnHb4">
               <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ConfigItem" />
@@ -1258,6 +1276,11 @@
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="LpQT6bdpGtlOd4iBTONQ4N" Bounds="204,202" />
+            <Pad Id="BzQQWFf0Ik5Nn985fJYZjT" Comment="Default" Bounds="266,130,35,15" ShowValueBox="true" isIOBox="true" Value="3333">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Pad>
           </Canvas>
           <Link Id="HmJR9JjnHW7PZl8JTpf2uZ" Ids="JPefVQqrWMELvFwgzKFSBd,OOMXUO8utKWQbbyLWZvHyN" />
           <Link Id="OCRvC3XigZ6QUex57T8cJq" Ids="LpQT6bdpGtlOd4iBTONQ4N,QA9fBh8uqj0LUjgjcsN2tp" IsHidden="true" />
@@ -1274,6 +1297,7 @@
             <Fragment Id="GS4cjSaC6V0MUnvheX0FC6" Patch="H2Wszma7O66NZtV7rGnAOh" Enabled="true" />
             <Fragment Id="Chq97jwoAsGN3iSKtcr9nz" Patch="Vz2Cp318eg9N1JloLBnIDq" Enabled="true" />
           </ProcessDefinition>
+          <Link Id="DJMy8hqAhyuNFRuPjsqQtG" Ids="BzQQWFf0Ik5Nn985fJYZjT,Bvdp9YJXJ38M1m3pTkfonu" />
         </Patch>
       </Node>
       <!--
@@ -1288,7 +1312,7 @@
         </p:NodeReference>
         <Patch Id="O3wgtDFYYrPOye79BO7dv2">
           <Canvas Id="B3IL1GgwBsVLgVyMt4gvw4" CanvasType="Group">
-            <Node Bounds="202,150,67,19" Id="VaJ9xRFlSZpNgk9b3GEVxj">
+            <Node Bounds="202,160,67,19" Id="VaJ9xRFlSZpNgk9b3GEVxj">
               <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ConfigItem" />
@@ -1306,6 +1330,11 @@
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="R3G0sxL48jMQBRtAlDXX6O" Bounds="204,202" />
+            <Pad Id="G2KxypQBUAgQYAhAcmmkxY" Comment="Default" Bounds="266,140,45,15" ShowValueBox="true" isIOBox="true" Value="34567">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Pad>
           </Canvas>
           <Link Id="S7RImQht4mMMlJSihSX7mK" Ids="Scw2Xzjv7RsQOTEtt1kYPb,KgcpiDnzCPjLJ4BZaIzXaK" />
           <Link Id="Jnctu3PBB2mLl0J1NgE9x3" Ids="R3G0sxL48jMQBRtAlDXX6O,VlMOczJMuDAQQDQH1in5op" IsHidden="true" />
@@ -1322,6 +1351,7 @@
             <Fragment Id="Mhp22iOY8cqMQ9c8aQIetu" Patch="PLJiXvPaGNPPOFqCdG9OCq" Enabled="true" />
             <Fragment Id="BzsN963MfiDOnvEbvEsDL8" Patch="LHd85JZvaPCLZGFKhKQYzW" Enabled="true" />
           </ProcessDefinition>
+          <Link Id="Ml8fUSASAKvMmLs0q71Yv7" Ids="G2KxypQBUAgQYAhAcmmkxY,UHqpwKF80TzPzWit77yDjz" />
         </Patch>
       </Node>
       <!--
@@ -1336,7 +1366,7 @@
         </p:NodeReference>
         <Patch Id="RAx7jyYYACTLxLt1G5QXAL">
           <Canvas Id="VbVYRariWBON8JPYbXSezJ" CanvasType="Group">
-            <Node Bounds="202,136,67,19" Id="TDBphPVnCJYPCt3vQRBpp3">
+            <Node Bounds="202,160,67,19" Id="TDBphPVnCJYPCt3vQRBpp3">
               <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ConfigItem" />
@@ -1354,6 +1384,11 @@
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="L4EDA61YowyLplP28mPhNT" Bounds="204,202" />
+            <Pad Id="UrW1r74PjYGLSEvARJBxFP" Comment="Default" Bounds="266,140,78,15" ShowValueBox="true" isIOBox="true" Value="127.0.0.1">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pad>
           </Canvas>
           <Link Id="MsA93oG0kXtO0Djb87KBur" Ids="R6ymTPaqEAJK90AW7NFpIu,TMuuLSQuuOePB6gMsNOUcm" />
           <Link Id="PgQr9hFnNNuMKZXdohsg0X" Ids="L4EDA61YowyLplP28mPhNT,BOGOEX3XVM6Lvubckkgxqf" IsHidden="true" />
@@ -1370,6 +1405,7 @@
             <Fragment Id="VRWVsseUN9TLjKisNLDwek" Patch="RuorxUlRvKROe9LFKyWC5Z" Enabled="true" />
             <Fragment Id="OAHPlEfr6W3LDcHk3tt3SB" Patch="LJDscYDcjrHL0sWXriylFQ" Enabled="true" />
           </ProcessDefinition>
+          <Link Id="ExItKmb73R6O7QPxPfqXMb" Ids="UrW1r74PjYGLSEvARJBxFP,JnEHzIb34yUOE1rIVTqpiy" />
         </Patch>
       </Node>
       <!--
@@ -1383,7 +1419,7 @@
         </p:NodeReference>
         <Patch Id="FaXicuQcXXBLZzgQ2YPuAX">
           <Canvas Id="NQpxDu9PCvBQbJKZE0CV5I" CanvasType="Group">
-            <Node Bounds="265,320,67,19" Id="K0BBLSJJ9EWNQa4UXpxnl9">
+            <Node Bounds="265,340,67,19" Id="K0BBLSJJ9EWNQa4UXpxnl9">
               <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ConfigItem" />
@@ -1400,7 +1436,15 @@
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <ControlPoint Id="QPQd2a1ufVaO6Qwo1XSeYN" Bounds="267,371" />
+            <ControlPoint Id="QPQd2a1ufVaO6Qwo1XSeYN" Bounds="267,391" />
+            <Pad Id="NuEKkmBI6uzQYxqcrhN3Wn" Comment="Default" Bounds="351,321,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+              </p:ValueBoxSettings>
+            </Pad>
           </Canvas>
           <Patch Id="IC6GvSDblHjPwFswr2d2CO" Name="Create" />
           <Patch Id="B61vCxOAA8FM7zV6CWyZVF" Name="Update">
@@ -1417,6 +1461,7 @@
           <Link Id="ORMVSEOEGtGLBGV7B0EYzX" Ids="UYQtHdRFPzkPn2kwE0wtK1,U1FeVwymoGLPID4FRX5MXA" />
           <Link Id="LINOUvslsUBPSDuEKxQPfu" Ids="QPQd2a1ufVaO6Qwo1XSeYN,CX1xwQZBzjBNPmp1uUcNir" IsHidden="true" />
           <Link Id="Fu6n8UUtHy9LYMAX1O3Exl" Ids="Rqc7DMhhDasL67yFYGTWzR,QPQd2a1ufVaO6Qwo1XSeYN" />
+          <Link Id="BIB1wM0bRChNRwb1ceI3rD" Ids="NuEKkmBI6uzQYxqcrhN3Wn,SB4Ed69EukvOkMCG2puxWq" />
         </Patch>
       </Node>
       <!--
