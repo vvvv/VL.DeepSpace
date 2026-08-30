@@ -17,6 +17,21 @@ For use with vvvv, the visual live-programming environment for .NET: http://vvvv
 - When downloaded, check out the examples coming with the pack
 - Save an example in a local work folder to modify it
 
+## Commandline arguments
+Here is a list of valid commandline arguments and their defaults in case they are not set:
+
+|Argument|Default|Description|
+|----------|----------|----------|
+--FloorIP| |**Mandatory** for both wall and floor: IP of the floor PC
+--WallDimensions|"16.0, 6.0"|Physical dimensions of the wall in meters
+--FloorDimensions|"16.0, 6.0"|Physical dimensions of the floor in meters
+--TuioIP|0.0.0.0|IP of the Tuio listener
+--TuioPort|3333|Port of the Tuio listener
+--OscPort|34567|Port of the OSC listener
+--Fullscreen|false|Whether or not to start in fullscreen
+
+As an alternative to specifying arguments via commandline, they can also be specified using a "settings.json" file next to the .vl or exported .exe file.
+
 ## Contributing
 - Report issues on [the vvvv forum](https://forum.vvvv.org/c/vvvv-gamma/28)
 - For custom development requests, please [get in touch](mailto:devvvvs@vvvv.org)

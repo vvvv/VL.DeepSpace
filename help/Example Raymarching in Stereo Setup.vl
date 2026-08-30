@@ -1016,6 +1016,7 @@
             <Pin Id="RFnsrOdI8ocNufCVbl9Nrd" Name="Preview Camera" Kind="OutputPin" />
             <Pin Id="PclTSaM32K2MfUoFNZPyoM" Name="VR Settings" Kind="OutputPin" />
             <Pin Id="SXIfVJiEjZIPy1nWZ98AaW" Name="Stereo Available" Kind="OutputPin" />
+            <Pin Id="ApUWY3BMn9YQRqubQBHDIH" Name="Zero Parallax Shift" Kind="InputPin" IsHidden="true" />
           </Node>
           <Pad Id="EZAGKXNojW8LUMFH4QgIey" Comment="Stereo Available" Bounds="576,611,35,35" ShowValueBox="true" isIOBox="true" />
           <Pad Id="P63EGcHnaPDOdlMmQYVdfz" Comment="Far Plane" Bounds="516,471,35,15" ShowValueBox="true" isIOBox="true" Value="20">
@@ -1077,22 +1078,22 @@
             </p:ValueBoxSettings>
           </Pad>
           <Overlay Id="SiOY4MmNyxtMWdPEJkHVnz" Name="Synchronized values" Bounds="65,179,311,234" />
-          <Pad Id="T3O3zyFRVRRQHmhvyVnt3B" Bounds="68,111,93,19" ShowValueBox="true" isIOBox="true" Value=".\settings.json">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="U9gqWJgnenzOiEdzlvSjrv" Bounds="68,50,207,58" ShowValueBox="true" isIOBox="true" Value="Note the settings file assumed next to this patch for configuring dimensions, IPs and ports:">
+          <Pad Id="FPPELt4Z9WtM3oGz5RuJDc" Bounds="62,86,207,19" ShowValueBox="true" isIOBox="true" Value="For commandline arguments, see:">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">9</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="BpbHQt8hE0HP8EPw6QB5gP" Bounds="62,108,306,21" ShowValueBox="true" isIOBox="true" Value="https://www.nuget.org/packages/VL.DeepSpace/#readme-body-tab">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
         </Canvas>
