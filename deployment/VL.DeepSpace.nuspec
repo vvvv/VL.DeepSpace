@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.DeepSpace</id>
-    <version>0.0.9-alpha</version>
+    <version>0.0.10-alpha</version>
     <title>VL.DeepSpace</title>
     <authors>vvvv</authors>
     <projectUrl>https://github.com/vvvv/VL.DeepSpace</projectUrl>
