@@ -25,7 +25,7 @@ Here is a list of valid commandline arguments and their defaults in case they ar
 --FloorIP| |**Mandatory** for both wall and floor: IP or hostname of the floor PC
 --WallDimensions|"16.0, 6.0"|Physical dimensions of the wall in meters
 --FloorDimensions|"16.0, 6.0"|Physical dimensions of the floor in meters
---Sweet Spot|"0, 1.75, 7"|Optimal viewer position
+--SweetSpot|"0, 1.75, 7"|Optimal viewer position
 --TuioIP|0.0.0.0|IP of the Tuio listener
 --TuioPort|3333|Port of the Tuio listener
 --OscPort|34567|Port of the OSC listener
